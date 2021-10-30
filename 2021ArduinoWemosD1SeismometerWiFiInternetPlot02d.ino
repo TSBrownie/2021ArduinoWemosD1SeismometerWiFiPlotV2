@@ -15,8 +15,8 @@
 #include <ESP8266WiFi.h>      //WiFi library
 #include <ESP8266WebServer.h> //Web Server library
 File dataFile;                //SD card file handle
-const char* ssid = "TP-LINK_2.4GHz_69F537"; //Router/connect SSID
-const char* password = "1111111111";  //Router/connect password
+const char* ssid = "TP-LINK_2.4GHz";  //Your Router/connect SSID
+const char* password = "xxxxxxxxxx";  //Your Router/connect password
 
 IPAddress local_ip(192,168,1,99);     //Device IP for local connect
 IPAddress gateway(192,168,1,99);      //Device IP for local connect
